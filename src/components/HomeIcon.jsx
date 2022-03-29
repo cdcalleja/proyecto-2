@@ -11,7 +11,7 @@ export default function CreateSvgIcon() {
     return (
 
 
-        <HomeIcon color="primary" sx={{ fontSize: 40 }} style={{marginLeft: 170}}/>
+        <HomeIcon color="primary" sx={{ fontSize: 40 }} style={{marginRight: 200}}/>
 
     );
 }
