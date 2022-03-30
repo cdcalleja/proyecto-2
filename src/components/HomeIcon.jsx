@@ -9,9 +9,6 @@ const HomeIcon = createSvgIcon(
 
 export default function CreateSvgIcon() {
     return (
-
-
         <HomeIcon color="primary" sx={{ fontSize: 40 }} style={{marginRight: 200}}/>
-
     );
 }
