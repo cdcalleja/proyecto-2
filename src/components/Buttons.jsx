@@ -8,7 +8,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 const useStyles = makeStyles ({
   buttonStyles: {
-    backgroundColor: "green"
+    color: "green"
   }
 });
 
