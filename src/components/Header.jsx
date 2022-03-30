@@ -41,7 +41,7 @@ const Header = () => {
                                 <NavDropdown.Item href="#action/3.3">Mercado</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Retransmisiones</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#personajes" style={{fontSize: 20 }}>@USER</Nav.Link>
+                            <Nav.Link href="#" style={{fontSize: 20 }}>@USER</Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>
