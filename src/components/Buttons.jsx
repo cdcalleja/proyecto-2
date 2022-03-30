@@ -56,7 +56,6 @@ const Buttons = () => {
           <Button onClick={handleClose} style= {{marginLeft: 70}}> No </Button>
         </Box>
       </Modal>
-
         </Button>
     </ButtonGroup>
   )
