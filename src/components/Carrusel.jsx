@@ -50,21 +50,21 @@ const Carrusel = () => {
       <img class="img-thumbnail d-block mx-auto" src={planetside} alt="Fifth slide" style={{height: 400}}/>
     </div>
     <div class="carousel-item">
-      <img class="img-thumbnail d-block mx-auto" src={pubg} alt="Fifth slide" style={{height: 400}}/>
+      <img class="img-thumbnail d-block mx-auto" src={pubg} alt="Sixth slide" style={{height: 400}}/>
     </div>
     <div class="carousel-item">
-      <img class="img-thumbnail d-block mx-auto" src={rdr2} alt="Fifth slide" style={{height: 400}}/>
+      <img class="img-thumbnail d-block mx-auto" src={rdr2} alt="Seventh slide" style={{height: 400}}/>
     </div>
     <div class="carousel-item">
-      <img class="img-thumbnail d-block mx-auto" src={thehunter} alt="Fifth slide" style={{height: 400}}/>
+      <img class="img-thumbnail d-block mx-auto" src={thehunter} alt="Eighth slide" style={{height: 400}}/>
     </div>
     <div class="carousel-item">
-      <img class="img-thumbnail d-block mx-auto" src={twohospital} alt="Fifth slide" style={{height: 400}}/>
+      <img class="img-thumbnail d-block mx-auto" src={twohospital} alt="Ninth slide" style={{height: 400}}/>
     </div>
     <div class="carousel-item">
-      <img class="img-thumbnail d-block mx-auto" src={wartales} alt="Fifth slide" style={{height: 400}}/>
+      <img class="img-thumbnail d-block mx-auto" src={wartales} alt="Tenth slide" style={{height: 400}}/>
     </div>
-
+  
   </div>
   <a class="carousel-control-prev" href="#carousel" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
