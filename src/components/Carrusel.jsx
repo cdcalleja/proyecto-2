@@ -34,7 +34,7 @@ const Carrusel = () => {
 
         </ul>
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="100000">
+          <div className="carousel-item active" data-bs-interval="10000">
             <img className="img-thumbnail d-block mx-auto" src={deathstranding} alt="First slide" style={{ height: 400 }} />
           </div>
           <div className="carousel-item">
@@ -66,10 +66,10 @@ const Carrusel = () => {
           </div>
 
         </div>
-        <a className="carousel-control-prev" href="#carousel" data-slide="prev" style={{marginLeft: 200}}>
+        <a className="carousel-control-prev" href="#carousel" data-slide="prev" style={{marginLeft: 180}}>
           <span className="carousel-control-prev-icon"></span>
         </a>
-        <a className="carousel-control-next" href="#carousel" data-slide="next" style={{marginRight: 200}}>
+        <a className="carousel-control-next" href="#carousel" data-slide="next" style={{marginRight: 180}}>
           <span className="carousel-control-next-icon"></span>
         </a>
       </div>

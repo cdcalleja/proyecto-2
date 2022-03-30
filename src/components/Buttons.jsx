@@ -32,9 +32,10 @@ const Buttons = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  const newLocal = 50;
   return (
     <ButtonGroup variant="contained" aria-label="outlined primary button group">
-      <Button style={{ backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: 50 }}>
+      <Button style={{ backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: newLocal}}>
         <FontAwesomeIcon icon={faMagnifyingGlass} />
         </Button>
       <Button style={{ backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: 50 }}>
