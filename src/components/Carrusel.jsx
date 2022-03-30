@@ -66,10 +66,10 @@ const Carrusel = () => {
           </div>
 
         </div>
-        <a className="carousel-control-prev" href="#carousel" data-slide="prev">
+        <a className="carousel-control-prev" href="#carousel" data-slide="prev" style={{marginLeft: 200}}>
           <span className="carousel-control-prev-icon"></span>
         </a>
-        <a className="carousel-control-next" href="#carousel" data-slide="next">
+        <a className="carousel-control-next" href="#carousel" data-slide="next" style={{marginRight: 200}}>
           <span className="carousel-control-next-icon"></span>
         </a>
       </div>
