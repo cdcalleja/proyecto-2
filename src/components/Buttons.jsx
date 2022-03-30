@@ -17,9 +17,9 @@ const Buttons = () => {
 
   return (
     <ButtonGroup  variant="contained" aria-label="outlined primary button group">
-          <Button ><FontAwesomeIcon icon={faMagnifyingGlass} /></Button>
-          <Button><FontAwesomeIcon icon={faUser} /></Button>
-          <Button><FontAwesomeIcon icon={faCartShopping} action onClick={alertClicked}/></Button>
+          <Button style={{backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: 50}}><FontAwesomeIcon icon={faMagnifyingGlass}/></Button>
+          <Button style={{backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: 50}}><FontAwesomeIcon icon={faUser} /></Button>
+          <Button style={{backgroundColor: "#07065e", border: "1px solid white", borderRadius: 25, marginLeft: 50}} ><FontAwesomeIcon icon={faCartShopping} action onClick={alertClicked}/></Button>
         </ButtonGroup>
   )
 }
